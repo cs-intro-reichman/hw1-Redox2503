@@ -8,6 +8,7 @@ public class Bill3 {
 		double bill = Double.parseDouble(args[3]);
 		double split = Math.ceil(bill/3);
 
-		System.out.printf("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " + split + " Shekels each.");
+		System.out.printf("Dear " + name3 + ", " + name2 + " and " + name1 + ": pay " +
+		 split + " Shekels each");
 	}
 }
