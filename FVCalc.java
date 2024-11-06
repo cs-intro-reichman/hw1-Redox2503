@@ -7,8 +7,8 @@ public class FVCalc {
 		int n = Integer.parseInt(args[2]); // n represents the number of years.
 		
 		double futureValue =  currentVaule * Math.pow(1 + (double)rate / 100, n);
-		System.out.println("After " + n + " years, " + currentVaule +
-			" saved at " + rate + "% will yeild " + '$' + (int)futureValue);
+		System.out.println("After " + n + " years, $" + currentVaule +
+			" saved at " + (double)rate + "% will yeild " + '$' + (int)futureValue);
 		System.out.println(1);
 	}
 }
