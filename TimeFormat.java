@@ -14,11 +14,11 @@ public class TimeFormat {
 		int minutes = Integer.parseInt("" + args[0].charAt(3) + args[0].charAt(4));
         
 		String hoursFormat;
-		if (hours > 12) hoursFormat = "" + (hours - 12);
+		if (hours > 12) hoursFormat = "" + (hours - 12); // changes the time according to the format.
 		else hoursFormat = "" + hours;
 
 		String suffix;
-		if (hours < 12) suffix = " AM";
+		if (hours < 12) suffix = " AM"; // checks what's the correct suffix.
 		else suffix = " PM";
 
 		if (minutes > 10) System.out.println(hoursFormat + ":" + minutes + suffix);

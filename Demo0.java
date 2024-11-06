@@ -4,8 +4,7 @@ public class Demo0 {
 	public static void main(String[] args) {
 		// Declares an int variable, and sets it to 0
         int i = 0;
-        while(i < 6)
-        {
+        while(i < 6)    {
             System.out.println(i);
             i++;
         }
