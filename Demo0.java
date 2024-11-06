@@ -2,7 +2,7 @@
 // (Same program as shown in lecture 1-1).
 public class Demo0 {
 	public static void main(String[] args) {
-		// Declares an int variable, and sets it to 1
+		// Declares an int variable, and sets it to 0
         int i = 0;
         while(i < 6)
         {
