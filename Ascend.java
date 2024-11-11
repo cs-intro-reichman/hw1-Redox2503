@@ -12,14 +12,17 @@ public class Ascend {
 		int max = Math.max(Math.max(a, b),c);
 		int middle;
 
-		if(b != min && b != max) // checks what is the middle value.
+		if(b != min && b != max) {		// checks what is the middle value.
 			middle = b;
-			
-		else if(a != min && a != max)
-			middle = a;
+		} 
 		
-		else middle = c;
-	 
+		else if(a != min && a != max)	{
+			middle = a;
+
+		} else {
+			middle = c;
+		}
+
 		System.out.println(min + " " + middle + " " + max);
 	}
 }
